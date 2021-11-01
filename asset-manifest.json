@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/windbnb-alike-app/static/css/main.0bf8a6dd.chunk.css",
+    "main.js": "/windbnb-alike-app/static/js/main.69c6fcca.chunk.js",
+    "main.js.map": "/windbnb-alike-app/static/js/main.69c6fcca.chunk.js.map",
+    "runtime-main.js": "/windbnb-alike-app/static/js/runtime-main.1cd4a3d5.js",
+    "runtime-main.js.map": "/windbnb-alike-app/static/js/runtime-main.1cd4a3d5.js.map",
+    "static/js/2.ae05cb1c.chunk.js": "/windbnb-alike-app/static/js/2.ae05cb1c.chunk.js",
+    "static/js/2.ae05cb1c.chunk.js.map": "/windbnb-alike-app/static/js/2.ae05cb1c.chunk.js.map",
+    "index.html": "/windbnb-alike-app/index.html",
+    "static/css/main.0bf8a6dd.chunk.css.map": "/windbnb-alike-app/static/css/main.0bf8a6dd.chunk.css.map",
+    "static/js/2.ae05cb1c.chunk.js.LICENSE.txt": "/windbnb-alike-app/static/js/2.ae05cb1c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cd4a3d5.js",
+    "static/js/2.ae05cb1c.chunk.js",
+    "static/css/main.0bf8a6dd.chunk.css",
+    "static/js/main.69c6fcca.chunk.js"
+  ]
+}
