@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/Maxeemja/windbnb-alike-app/">
+    <a href="https://maxeemja.github.io/windbnb-alike-app">
       Demo
     </a>
     <span> | </span>
