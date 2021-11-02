@@ -23,7 +23,6 @@
 
 
 ## Overview
-This is a button component which you can test with a demo.
 ![screenshot](./src/assets/asset.png)
 - 4th Dev Challenges project
 ### Built With
