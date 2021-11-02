@@ -10,7 +10,7 @@ const AppHeader = ({setIsOpen, currLoc, guests}) => {
                 onClick={() => setIsOpen(true)}>
                 <div className="search__menu-location">{currLoc}</div>
                 <div className="vertical-line"></div>
-                <div className="grey">{guests < 1 ? "Add guests" : `${guests} guests`}</div>
+                <div className="grey">{guests < 1 ? "Add guests" : guests === 1 ? `1 guest` : `${guests} guests`}</div>
                 <div className="vertical-line"></div>
                 <i className="fas fa-search"></i>
             </div>

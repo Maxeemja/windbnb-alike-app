@@ -27,7 +27,7 @@ const ModalFilter = ({setIsOpen, modalIsOpen, setLocation, setGuests, currLoc, g
     const [tempLocation, setTempLocation] = useState(currLoc);
     const [tempGuests, setTempGuests] = useState({adults: 0, child: 0});
     const [activeTab, setActiveTab] = useState('location');
-
+    const numOfGuests = tempGuests.adults + tempGuests.child;
     useEffect(() => {
         setTempLocation(currLoc);
         setActiveTab('location');
@@ -81,7 +81,7 @@ const ModalFilter = ({setIsOpen, modalIsOpen, setLocation, setGuests, currLoc, g
                     onClick={(e) => setActiveClass(e.target)}
                     id="guests">
                     <span className="label">Guests</span>
-                    <span className="text">Add guests</span>
+                    <span className="text">{numOfGuests === 1 ? `1 guest` : numOfGuests > 1 ? `${numOfGuests} guests` : 'Add guests'}</span>
                     <span className="vertical-line"></span>
                 </div>
                 <div className="modal__grid-item-search" onClick={() => applyFilters()}><i className="fas fa-search"></i>Search</div>
